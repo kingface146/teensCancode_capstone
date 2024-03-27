@@ -59,8 +59,10 @@ span{
 .saly{
     width: 546px;
     height: 348px;
-    margin-top: 280px;
-    margin-left: 80px;
+    margin-top: 100px;
+    margin-bottom: 50px;
+    padding:10px 80px;
+    /* margin-left: 80px; */
 }
 .imgry{
     
@@ -71,7 +73,8 @@ span{
 }
 
 span{
-    margin-left: 10px;
+    margin-top: 10px ;
+    text-align: center;
 }
 .Services{
     /* text-align:  center; */
@@ -325,9 +328,17 @@ footer{
 .hamdiv{
     display: none;
 }
-@media (min-width: 319px) and (max-width: 600px)   {
+@media (min-width: 319px) and (max-width: 560px)   {
     .kon{
-        height: 80px;
+        height: 20px;
+        position: relative;
+        right: 4rem;
+
+        
+    }
+    .hamdiv{
+        display: block;
+        color: white;
         
     }
     body{
@@ -335,67 +346,253 @@ footer{
     }
     .Virtual{
         flex-wrap: wrap;
-        margin-left: 120px;
+       height: 100px;
+       text-align: center;
+       position: relative;
+       bottom: 16rem;
+       right: 3rem;
+       margin-bottom: 30px;
+
         
+    }
+    .imgry{
+        height: 340px;
+        position: relative;
+        left: 2rem;
+       
+      
+    }
+    .use{
+        height: 40px;
+        width: 90px;
+    }
+    .Reality{
+        height: 60px;
     }
     .imgry{
         position: relative;
         bottom: 9rem;
     }
     .Services{
-        margin: auto 180px;
+        color: #fbfcfd;
+        height: 50px;
+        width: 250px;
+        position: relative;
+        top: 18rem;
+        font-size: x-small;
+        right: 25rem;
+        
+    }
+    .Services h3{
        
     }
     .Order{
-        width: 100%;
+        position: relative;
+        top: 23rem;
         display: block;
-        justify-content: space-evenly;
-        margin: auto 280px;
+       
+      
     }
     .checklist{
         margin-bottom: 40px;
+        height: 220px;
+        font-size: xx-small;
+        padding: 30px;
+        width: 200px;
+       margin: auto;
+       margin-bottom: 30px;
+        
+    
+    }
+    .checklist  p{
+        width: 150px;
+        right: 8px;
+        position: relative;
+        font-size: xx-small;
+        
+
+    }
+    .checklist h5{
+       
+        text-align: center;
+        font-size: small;
+
     }
     .Assistant{
         margin-bottom: 40px;
+        margin-bottom: 40px;
+        height: 220px;
+        font-size: xx-small;
+        padding: 30px;
+        width: 200px;
+        margin: auto;
+        margin-bottom: 30px;
+    }
+    .Assistant h5{
+      
+        text-align: center;
+        font-size: small;
+
     }
     .Modules{
         margin-bottom: 40px;
+        margin-bottom: 40px;
+        height: 220px;
+        font-size: xx-small;
+        padding: 30px;
+        width: 200px;
+        margin: auto;
+        margin-bottom: 30px;
+    }
+    .Modules h5{
+        
+        text-align: center;
+        font-size: small;
+
     }
     .Analyzer{
         margin-bottom: 40px;
+        margin-bottom: 40px;
+        height: 220px;
+        font-size: xx-small;
+        padding: 30px;
+        width: 200px;
+        margin: auto;
+        margin-bottom: 30px;
     }
-    .complete{
+
+    .Analyzer h5{
+       
+        text-align: center;
+        font-size: small;
+
+    }
+    .yon{
+        height: 300px;
         
+    }
+    .working{
+        height: 300px;
+        margin-left: 110px;
+
     }
     .walk{
         flex-wrap: wrap;
        text-align: center;
-        width: 600px;
-        margin:auto 190px ;
+        width: 250px;
+        /* margin:auto 190px ; */
+        font-size: 10px;
+        position: relative;
+        top: 40rem;
+        left: 31px;
+        margin-bottom: 50px;
+    }
+    .walk h1{
+        font-size: 20px;
     }
     .info{
         flex-wrap: wrap-reverse;
        text-align: center;
-       width: 600px;
-        margin:auto 150px ;
+       width: 300px;
+        font-size: 10px;
+        position: relative;
+        top: 40rem;
+        right: 25px;
+    }
+    .info h1{
+        font-size: 20px;
     }
     .Met{
-        margin:auto 440px ;
+        /* margin:auto 440px ; */
+        position: relative;
+        /* top: 100rem; */
+        font-size: 10px;
+        display: block;
+        top: 40rem;
+        margin-bottom: 600px;
+       
+    }
+    .Rectangle{
+        display: block;
+        margin: auto 80px;
+        
     }
     .Team{
        position: relative;
-       right: 14rem;
+       left: rem;
        margin-top: 90px;
+       width: 250px;
     }
-    .Rectangle{
+    .Platform{
+        margin-bottom: 40px;
+        margin-bottom: 40px;
+        height: 220px;
+        font-size: xx-small;
+        padding: 30px;
+        width: 200px;
+        margin: auto;
+        margin-bottom: 30px;
+    }
+    .Platform h5{
        
+        text-align: center;
+        font-size: small;
+
     }
+   .Notification{
+       margin-bottom: 40px;
+        margin-bottom: 40px;
+        height: 230px;
+        font-size: xx-small;
+        padding: 30px;
+        width: 200px;
+        margin: auto;
+        margin-bottom: 30px;
+        
+   }
+   .Notification h5{
+   
+    text-align: center;
+  
+   
+    font-size: 12px;
+        
+
+   }
+   .jam{
+    height: 50px;
+   }
     .Executive{
-        margin-left: 40px;
+        width: 150px;
+        height: 200px;
+        margin-bottom: 10px;
+
+
     }
     .Subscribe{
-        width: 900px;
-        margin-left:  20px;
+        width: 250px;
+        margin-left:  29px;
+        position: relative;
+        font-size: 10px;
+        
+      
+    }
+    .Frame{
+        position: relative;
+     
+        left: 4px;
+
+    }
+    .Subscribe h1{
+        font-size: 20px;
+    }
+    .mail{
+        width: 100px;
+       position: relative;
+       display: none;
+      
+       /* position: relative;
+       right: 9rem; */
     }
     body{
         /* background: linear-gradient(20deg,#081229 ,#7b3bda 10%,#081229 50%) ;
@@ -404,13 +601,19 @@ footer{
         
     }
     footer{
-        height: 500px;
+        height: 1100px;
         width: 100%;
-        padding: 50px;
+        padding: 20px;
+     
+        
 
     }
     .mainfoot{
-        margin-left: 400px;
+        /* margin-left: 400px; */
+        width: 300px;
+        font-size: 10px;
+        display: block;
+        
        
     }
     .hamdiv{
@@ -428,25 +631,164 @@ footer{
     }
     .foot{
        position: relative;
-       bottom: 9rem;
-       left: 7rem;
+       top: 1rem;
+       right: 7rem;
+       font-size: 10px;
+    
+    }
+    .last{
+        position: relative;
+        right: 9rem;
+        font-size: 10px;
+        top: 3rem;
     }
     .working{
         margin-right: 100px;
     }
+    .saly{
+        margin-top: 220px;
+        
+        /* width: 100px; */
+    }
+    .Virtual{
+        margin-bottom:200px;
+    }
     
 }
-@media (min-width: 601px) and (max-width: 769px) {
+@media (min-width: 767px) and (max-width: 800px) {
     .hamdiv{
         display: none;
 
     }
     .Order{
        position: relative;
-       left: 18rem;
-       gap: 20px;
+       /* left: 245px; */
+      
     }
     .checklist{
         width: 380px;
     }
+    .Reality{
+        height: 80px;
+    }
+    .imgry{
+        height: 400px;
+        position: relative;
+        
+        right: 6rem;
+    }
+    .Virtual{
+        width: 120px;
+    }
+    .mainservise{
+        position: relative;
+        /* right: 16rem; */
+        font-size: 10px;
+        margin-bottom: 100px;
+        
+    }
+    .Services{
+        width: 300px;
+        font-size: 10px;
+       position: relative;
+       margin: auto;
+    }
+    .checklist{
+        width: 200px;
+       
+    }
+    .checklist h5{
+        font-size: 15px;
+
+    }
+    
+   
+
+    .Assistant{
+        width: 200px;
+    }
+    .Assistant h5{
+        font-size: 15px;
+    }
+    .Platform{
+        width: 200px;
+    }
+    .Platform h5{
+        font-size: 15px;
+    }
+    .Modules{
+        width: 200px;
+    }
+    .Modules h5{
+        font-size: 13px;
+    }
+    .Analyzer{
+        width: 200px;
+
+    }
+    .Analyzer h5{
+        font-size: 15px;
+    }
+    .Notification{
+        width: 200px;
+    }
+    .Notification h5{
+        font-size: 12px;
+    }
+    .walk{
+        height: 400px;
+        position: relative;
+        right: 2rem;
+    }
+    .c h1{
+        font-size:20px ;
+    }
+    .c{
+        font-size: x-small;
+        width: 300px;
+
+    }
+    .info{
+        height: 400px;
+        position: relative;
+        margin-bottom: 200px;
+    }
+    .nothing{
+        font-size: x-small;
+        width: 300px;
+    }
+    .nothing h1{
+        font-size: 20px;
+    }
+    .jam{
+        height: 90px;
+    }
+    .Executive{
+        font-size: 10px;
+        height: 200px;
+        width: 130px;
+        
+    }
+    .ono{
+        height: 10px;
+        position: relative;
+        bottom: 1rem;
+    }
+    .Executive h5{
+        font-size: 15px;
+    }
+    .Subscribe{
+        width: 600px;
+        font-size: x-small; 
+    }
+    .Subscribe h1{
+        font-size: 30px;
+    }
+    .mail{
+        width: 400px;
+    }
+    footer{
+        height: 430px;
+    }
+
 }
