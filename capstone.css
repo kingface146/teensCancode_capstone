@@ -5,10 +5,14 @@
     color: white;
    position: relative;
    margin-left: 500px;
+   margin-bottom: 40px;
  
     
     
     
+}
+.imgry{
+    width: 700px;
 }
 .c{
     width: 560px;
@@ -42,6 +46,7 @@ body{
 }
 .Virtual{
     display: flex;
+    
 }
 .use{
     width: 132px;
@@ -57,16 +62,14 @@ span{
     color: white;
 }
 .saly{
-    width: 546px;
+    /* width: 350px; */
     height: 348px;
     margin-top: 100px;
     margin-bottom: 50px;
     padding:10px 80px;
     /* margin-left: 80px; */
 }
-.imgry{
-    
-}
+
 
 .joinvid{
     margin-left: 15px;
@@ -92,9 +95,7 @@ span{
    padding: 27px;
    border-radius: 20px;
 }
-.list{
-  
-}
+
 .Assistant{
     height: 250px;
     width: 360px;
@@ -207,9 +208,9 @@ span{
 .nothing{
     width: 560px;
     /* position: relative; */
-    top: 6rem;
+    /* top: 6rem; */
     margin-top: 110px;
-    margin-left: 50px;
+    /* margin-left: 50px; */
 
 }
 .read{
@@ -355,6 +356,10 @@ footer{
 
         
     }
+    .c{
+        width: 250px;
+    }
+
     .imgry{
         height: 340px;
         position: relative;
@@ -372,6 +377,8 @@ footer{
     .imgry{
         position: relative;
         bottom: 9rem;
+        width: 300px;
+        left: 3rem;
     }
     .Services{
         color: #fbfcfd;
@@ -400,7 +407,7 @@ footer{
         padding: 30px;
         width: 200px;
        margin: auto;
-       margin-bottom: 30px;
+       margin-bottom: 70px;
         
     
     }
@@ -426,7 +433,7 @@ footer{
         padding: 30px;
         width: 200px;
         margin: auto;
-        margin-bottom: 30px;
+        margin-bottom: 70px;
     }
     .Assistant h5{
       
@@ -442,7 +449,7 @@ footer{
         padding: 30px;
         width: 200px;
         margin: auto;
-        margin-bottom: 30px;
+        margin-bottom: 70px;
     }
     .Modules h5{
         
@@ -458,7 +465,7 @@ footer{
         padding: 30px;
         width: 200px;
         margin: auto;
-        margin-bottom: 30px;
+        margin-bottom: 70px;
     }
 
     .Analyzer h5{
@@ -469,11 +476,16 @@ footer{
     }
     .yon{
         height: 300px;
+        position: relative;
+        right: 1rem;
         
     }
     .working{
         height: 300px;
-        margin-left: 110px;
+        width: 220px;
+        position: relative;
+        left: 2rem;
+        /* margin-left: 110px; */
 
     }
     .walk{
@@ -547,7 +559,7 @@ footer{
         padding: 30px;
         width: 200px;
         margin: auto;
-        margin-bottom: 30px;
+        margin-bottom: 0px;
         
    }
    .Notification h5{
@@ -617,18 +629,23 @@ footer{
        
     }
     .hamdiv{
-        display: flex;
+        display: block;
         
-        height: 30px;
+        height: 15px;
         position: relative;
-        bottom: 60px;
-        left: 500px;
+       bottom: 35px;
+        color: white;
+        left: 15rem;
+        /* left: 500px; */
     }
     .area{
         position: relative;
+       right: 3rem;
+       width: 50px;
         
         
     }
+    
     .foot{
        position: relative;
        top: 1rem;
@@ -638,7 +655,7 @@ footer{
     }
     .last{
         position: relative;
-        right: 9rem;
+        right: 10rem;
         font-size: 10px;
         top: 3rem;
     }
@@ -647,12 +664,88 @@ footer{
     }
     .saly{
         margin-top: 220px;
+
         
-        /* width: 100px; */
+        width: 380px;
     }
     .Virtual{
         margin-bottom:200px;
     }
+    .nothing{
+        left: 27px;
+        position: relative;
+        width: 250px;
+    }
+    .nothing h1{
+        width: 200px;
+        position: relative;
+        left: 27px;
+    }
+    
+}
+
+@media (min-width: 372px) and (max-width: 662px) {
+    .Reality{
+        height: 70px;
+    }
+    .Virtual{
+        margin-bottom: 300px;
+        position: relative;
+        bottom: 10rem;
+      
+    }
+    
+    .imgry{
+        position: relative;
+        left: 3rem;
+    }
+    .we{
+        text-align: center;
+        
+    }
+    .walk{
+        position: relative;
+        top: 1rem;
+        
+    }
+    .c{
+        position: relative;
+        left:25px;
+    }
+    .Notification{
+        margin-bottom: 500px;
+    }
+    .info{
+        position: relative;
+        top:20rem;
+    }
+    .working{
+        position: relative;
+        right: 5rem;
+    }
+    .nothing{
+        position: relative;
+        left: 2rem;
+    }
+    .Rectangle{
+        position: relative;
+        left: 30px;
+        margin-top: 40px;
+    }
+    .Subscribe{
+        left: 30px;
+    }
+    .Services{
+        width: 300px;
+    }
+    .yon{
+        left: 1rem;
+    }
+    .working{
+        left: 2rem;
+    }
+
+
     
 }
 @media (min-width: 767px) and (max-width: 800px) {
@@ -672,7 +765,7 @@ footer{
         height: 80px;
     }
     .imgry{
-        height: 400px;
+        height: 350px;
         position: relative;
         
         right: 6rem;
@@ -791,4 +884,10 @@ footer{
         height: 430px;
     }
 
+}
+@media (min-width: 600px) and (max-width: 800px){
+    .Virtual{
+        
+    }
+    
 }
