@@ -684,20 +684,25 @@ footer{
     
 }
 
-@media (min-width: 372px) and (max-width: 662px) {
+@media (min-width: 374px) and (max-width: 666px) {
     .Reality{
-        height: 70px;
+        height: 60px;
     }
     .Virtual{
         margin-bottom: 300px;
         position: relative;
         bottom: 10rem;
+        
       
     }
-    
+    .saly{
+        width: 390px;
+        left: 35px;
+        position: relative;
+    }
     .imgry{
         position: relative;
-        left: 3rem;
+        left: 5rem;
     }
     .we{
         text-align: center;
@@ -725,7 +730,7 @@ footer{
     }
     .nothing{
         position: relative;
-        left: 2rem;
+        left: 55px;
     }
     .Rectangle{
         position: relative;
@@ -742,14 +747,15 @@ footer{
         left: 1rem;
     }
     .working{
-        left: 2rem;
+        left: 3rem;
+        height: 310px;
+        width: 250px;
     }
-
-
-    
+.hamdiv{
+    left: 19rem;
+    position: relative;
 }
-@media (min-width: 767px) and (max-width: 800px) {
-    .hamdiv{
+g
         display: none;
 
     }
