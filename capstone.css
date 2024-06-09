@@ -66,7 +66,7 @@ span{
     height: 348px;
     margin-top: 100px;
     margin-bottom: 50px;
-    padding:10px 80px;
+    padding: 30px;
     /* margin-left: 80px; */
 }
 
@@ -87,7 +87,7 @@ span{
   color: white;
 }
 .checklist{
-    height: 250px;
+    height: 270px;
     width: 360px;
     text-align: center;
     color: white;
@@ -97,7 +97,7 @@ span{
 }
 
 .Assistant{
-    height: 250px;
+    height: 270px;
     width: 360px;
     text-align: center;
     color: white;
@@ -106,7 +106,7 @@ span{
    border-radius: 20px;
 }
 .Platform{
-    height: 250px;
+    height: 270px;
     width: 360px;
     text-align: center;
     color: white;
@@ -120,7 +120,7 @@ span{
     
 }
 .Modules{
-    height: 250px;
+    height: 270px;
     width: 360px;
     text-align: center;
     color: white;
@@ -130,7 +130,7 @@ span{
 
 }
 .Analyzer{
-    height: 250px;
+    height: 270px;
     width: 360px;
     text-align: center;
     color: white;
@@ -139,7 +139,7 @@ span{
    border-radius: 20px;
 }
 .Notification{
-    height: 250px;
+    height: 270px;
     width: 360px;
     text-align: center;
     color: white;
@@ -755,7 +755,12 @@ footer{
     left: 19rem;
     position: relative;
 }
-g
+
+
+    
+}
+@media (min-width: 767px) and (max-width: 800px) {
+    .hamdiv{
         display: none;
 
     }
@@ -835,7 +840,7 @@ g
         font-size: 12px;
     }
     .walk{
-        height: 400px;
+        /* height: 200px; */
         position: relative;
         right: 2rem;
     }
@@ -848,13 +853,17 @@ g
 
     }
     .info{
-        height: 400px;
+        /* height: 400px; */
         position: relative;
         margin-bottom: 200px;
+        left: 1rem;
     }
     .nothing{
         font-size: x-small;
-        width: 300px;
+        /* width: 300px; */
+    }
+    .working{
+        height: 450px;
     }
     .nothing h1{
         font-size: 20px;
@@ -891,9 +900,151 @@ g
     }
 
 }
-@media (min-width: 600px) and (max-width: 800px){
+@media (min-width: 599px) and (max-width: 800px){
     .Virtual{
+        /* height: 300px; */
+        top: 50px;
+        right: 70px;
+    }
+    .Reality{
+        height: 90px;
+
+    }
+    .imgry{
+        height:400px;
+        width: 400px;
+        top: 50px;
+        left :60px ;
+        position: relative;
+    }
+   
+    .saly{
+        left: 60px;
+        width: 300px;
+        top: 100px;
         
     }
-    
+    .Services{
+        margin: auto;
+        width: 400px;
+    }
+    .mainservise{
+        font-size: 11px;
+    }
+    .mainservise h5{
+        font-size: 13px;
+
+    }
+    .use{
+        width: 90px;
+    }
+    .checklist{
+        width: 160px;
+        height: 300px;
+        text-align: center;
+        
+       
+
+    }
+    .Assistant{
+        width: 160px;
+        height: 300px;
+    }
+    .Platform{
+        width: 160px;
+        height: 300px;
+    }
+    .class{
+        height: 60px;
+        width: 60px;
+        bottom: 13px;
+        position: relative;
+
+       
+    }
+    .check{
+        height: 30px;
+    }
+    .such{
+        height: 60px;
+        width: 60px;
+        bottom: 13px;
+        position: relative;
+    }
+    .btc{
+        height: 60px;
+        width: 60px;
+        bottom: 13px;
+        position: relative;
+    }
+    .Modules{
+        width: 160px;
+        height: 300px;
+        text-align: center;
+
+    }
+    .Analyzer{
+        width: 160px;
+        height: 300px;
+        text-align: center;
+    }
+    .Notification{
+        width: 160px;
+        height: 300px;
+        text-align: center;
+    }
+    .much{
+        height: 60px;
+        width: 60px;
+        bottom: 13px;
+        position: relative;
+    }
+    .love{
+        height: 60px;
+        width: 60px;
+        bottom: 13px;
+        position: relative;
+
+    }
+    .money{
+        height: 60px;
+        width: 60px;
+        bottom: 13px;
+        position: relative;
+
+    }
+    .yon{
+        height: 400px;
+        right: 20px;
+        position: relative;
+    }
+    .working{
+        height: 400px;
+    }
+    .c{
+        font-size: 10px;
+        text-align: center;
+        right: 40px;
+        position: relative;
+    }
+    .nothing{
+        font-size: 10px;
+        text-align: center;
+        left: 20px;
+        position: relative;
+    }
+    .nothing h1{
+        font-size: 30px;
+    }
+    .c h1{
+        font-size: 30px;
+    }
+    .walk{
+        margin-top: 100px;
+    }
+}
+@media (min-width: 1020px) and (max-width: 1369){
+    .imgry{
+        height: 100px;
+    }
 }
