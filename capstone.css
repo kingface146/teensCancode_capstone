@@ -206,7 +206,7 @@ span{
     justify-content: space-evenly;
 }
 .nothing{
-    width: 560px;
+    width: 100%;
     /* position: relative; */
     /* top: 6rem; */
     margin-top: 110px;
@@ -331,7 +331,8 @@ footer{
 }
 @media (min-width: 319px) and (max-width: 560px)   {
     .kon{
-        height: 20px;
+        margin-top: 20px;
+        /* height: 20px; */
         position: relative;
         right: 4rem;
 
@@ -356,8 +357,9 @@ footer{
 
         
     }
-    .c{
-        width: 250px;
+    .c h1{
+        text-align: center;
+       
     }
 
     .imgry{
@@ -377,13 +379,14 @@ footer{
     .imgry{
         position: relative;
         bottom: 9rem;
-        width: 300px;
-        left: 3rem;
+        width: 100%;
+        /* right: 3rem; */
+        
     }
     .Services{
         color: #fbfcfd;
         height: 50px;
-        width: 250px;
+        width: 290px;
         position: relative;
         top: 18rem;
         font-size: x-small;
@@ -402,68 +405,66 @@ footer{
     }
     .checklist{
         margin-bottom: 40px;
-        height: 220px;
-        font-size: xx-small;
+        height:250px;
+        /* font-size: xx-small;
         padding: 30px;
-        width: 200px;
+        width: 200px; */
        margin: auto;
        margin-bottom: 70px;
         
     
     }
     .checklist  p{
-        width: 150px;
-        right: 8px;
-        position: relative;
-        font-size: xx-small;
+       
+        font-size: 15px;
         
 
     }
     .checklist h5{
        
         text-align: center;
-        font-size: small;
+        font-size: 20px;
 
     }
     .Assistant{
         margin-bottom: 40px;
         margin-bottom: 40px;
-        height: 220px;
-        font-size: xx-small;
+        height: 270px;
+        /* font-size: xx-small;
         padding: 30px;
-        width: 200px;
+        width: 200px; */
         margin: auto;
         margin-bottom: 70px;
+        width: 90%;
     }
     .Assistant h5{
       
         text-align: center;
-        font-size: small;
+        font-size: 20px;
+
 
     }
     .Modules{
         margin-bottom: 40px;
         margin-bottom: 40px;
-        height: 220px;
-        font-size: xx-small;
-        padding: 30px;
-        width: 200px;
+        height: 270px;
+        
+        width: 90%;
         margin: auto;
         margin-bottom: 70px;
     }
     .Modules h5{
         
         text-align: center;
-        font-size: small;
+        font-size: 20px;
 
     }
     .Analyzer{
         margin-bottom: 40px;
         margin-bottom: 40px;
-        height: 220px;
-        font-size: xx-small;
-        padding: 30px;
-        width: 200px;
+        height: 270px;
+        
+        width: 90%;
         margin: auto;
         margin-bottom: 70px;
     }
@@ -471,32 +472,35 @@ footer{
     .Analyzer h5{
        
         text-align: center;
-        font-size: small;
-
+        font-size: 20px;
     }
     .yon{
         height: 300px;
-        position: relative;
-        right: 1rem;
+        /* position: relative;
+        right: 1rem; */
+        width: 300px;
         
+    }
+    .c{
+       
     }
     .working{
         height: 300px;
-        width: 220px;
+        width: 300px;
         position: relative;
-        left: 2rem;
+        bottom: 13rem;
+        /* position: relative;
+        left: 2rem; */
         /* margin-left: 110px; */
 
     }
     .walk{
         flex-wrap: wrap;
        text-align: center;
-        width: 250px;
+       
         /* margin:auto 190px ; */
         font-size: 10px;
-        position: relative;
-        top: 40rem;
-        left: 31px;
+        padding: 10px;
         margin-bottom: 50px;
     }
     .walk h1{
@@ -505,11 +509,12 @@ footer{
     .info{
         flex-wrap: wrap-reverse;
        text-align: center;
-       width: 300px;
+       width: 90%;
         font-size: 10px;
         position: relative;
         top: 40rem;
-        right: 25px;
+        right: 2rem;
+        
     }
     .info h1{
         font-size: 20px;
@@ -520,54 +525,53 @@ footer{
         /* top: 100rem; */
         font-size: 10px;
         display: block;
-        top: 40rem;
+        top: 30rem;
         margin-bottom: 600px;
        
     }
     .Rectangle{
         display: block;
-        margin: auto 80px;
+        width: 100%;
         
     }
     .Team{
-       position: relative;
+        width:100%;
+        padding: 10px;
+        text-align: center;
+       /* position: relative;
        left: rem;
-       margin-top: 90px;
-       width: 250px;
+       margin-bottom: 100px;
+       width: 350px; */
     }
     .Platform{
         margin-bottom: 40px;
         margin-bottom: 40px;
-        height: 220px;
-        font-size: xx-small;
-        padding: 30px;
-        width: 200px;
+        height: 270px;
+        
+        width: 90%;
         margin: auto;
-        margin-bottom: 30px;
+        margin-bottom: 70px;
     }
     .Platform h5{
        
         text-align: center;
-        font-size: small;
+        font-size: 20px;
 
     }
    .Notification{
-       margin-bottom: 40px;
-        margin-bottom: 40px;
-        height: 230px;
-        font-size: xx-small;
-        padding: 30px;
-        width: 200px;
-        margin: auto;
-        margin-bottom: 0px;
-        
+    margin-bottom: 40px;
+    margin-bottom: 40px;
+    height: 270px;
+    
+    width: 90%;
+    margin: auto;
+    margin-bottom: 70px;
    }
    .Notification h5{
    
     text-align: center;
-  
-   
-    font-size: 12px;
+        font-size: 20px;
+
         
 
    }
@@ -575,16 +579,17 @@ footer{
     height: 50px;
    }
     .Executive{
-        width: 150px;
+        width: 100%;
         height: 200px;
         margin-bottom: 10px;
+        /* right: 6rem;
+        position: relative; */
 
 
     }
     .Subscribe{
-        width: 250px;
-        margin-left:  29px;
-        position: relative;
+        width: 90%;
+       margin: auto;
         font-size: 10px;
         
       
@@ -659,9 +664,7 @@ footer{
         font-size: 10px;
         top: 3rem;
     }
-    .working{
-        margin-right: 100px;
-    }
+    
     .saly{
         margin-top: 220px;
 
@@ -672,19 +675,19 @@ footer{
         margin-bottom:200px;
     }
     .nothing{
-        left: 27px;
-        position: relative;
-        width: 250px;
+        /* left: 27px;
+        position: relative; */
+       
     }
-    .nothing h1{
+    /* .nothing h1{
         width: 200px;
         position: relative;
         left: 27px;
-    }
+    } */
     
 }
 
-@media (min-width: 374px) and (max-width: 666px) {
+@media (min-width: 359px) and (max-width: 666px) {
     .Reality{
         height: 60px;
     }
@@ -702,7 +705,7 @@ footer{
     }
     .imgry{
         position: relative;
-        left: 5rem;
+        /* left: 5rem; */
     }
     .we{
         text-align: center;
@@ -714,8 +717,8 @@ footer{
         
     }
     .c{
-        position: relative;
-        left:25px;
+        /* position: relative;
+        left:25px; */
     }
     .Notification{
         margin-bottom: 500px;
@@ -724,38 +727,34 @@ footer{
         position: relative;
         top:20rem;
     }
-    .working{
-        position: relative;
-        right: 5rem;
+    
     }
     .nothing{
         position: relative;
         left: 55px;
     }
     .Rectangle{
-        position: relative;
-        left: 30px;
+        /* position: relative;
+        left: 30px; */
         margin-top: 40px;
     }
     .Subscribe{
         left: 30px;
     }
     .Services{
-        width: 300px;
+        width:350px;
     }
     .yon{
         left: 1rem;
     }
-    .working{
-        left: 3rem;
-        height: 310px;
-        width: 250px;
-    }
-.hamdiv{
+   
+/* .hamdiv{
     left: 19rem;
     position: relative;
+} */
+.checklist{
+    width: 90%;
 }
-
 
     
 }

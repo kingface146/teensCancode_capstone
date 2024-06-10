@@ -1,0 +1,144 @@
+body {
+    min-height: 100vh;
+    color: #fff;
+    background: linear-gradient(20deg, #081229, #7b3bda 10%, #081229 50%);
+  }
+  
+  a {
+    text-decoration: none;
+  }
+  
+  .container-fluid {
+    width: 90%;
+    margin: 0 auto;
+  }
+  
+  .navbar-nav .text-white {
+    color: #ffffff52 !important;
+  }
+  
+  .navbar-nav .nav-link.active,
+  .navbar-nav .show>.nav-link {
+    color: #fff !important
+  }
+  
+  .nav-link:focus,
+  .nav-link:hover {
+    color: #fff !important
+  }
+  
+  .button {
+    width: 132px;
+    height: 42px;
+    margin-top: 20px;
+    margin-right: 20px;
+    border-radius: 9px;
+    border: none;
+    color: white;
+    background: linear-gradient(90.35deg, #2563EB 0.36%, #D946EF 201.02%);
+  }
+  
+  .span {
+    margin-right: 30px;
+    color: white;
+  }
+  
+  .ghik {
+    width: 38px;
+    height: 38px;
+    margin-top: 20px;
+    margin-left: 1cqb;
+  }
+  
+  .list {
+    width: 74px;
+    height: 74px;
+    margin: 0 auto;
+    /* margin-top: 25px;
+    margin-left: 155px; */
+    border-radius: 50%;
+    background: linear-gradient(180deg, #8A7FD9 0%, #402F8F 100%);
+    color: white;
+  }
+  
+  .listwo {
+    width: 74px;
+    height: 74px;
+    margin: 0 auto;
+    border-radius: 50%;
+    background: linear-gradient(180deg, #D97F95 0%, #923250 100%);
+    color: white;
+  }
+  
+  .listhree {
+    width: 74px;
+    height: 74px;
+    margin: 0 auto;
+    border-radius: 50%;
+    background: linear-gradient(180deg, #84D8ED 0%, #4292BB 100%);
+    color: white;
+  }
+  
+  .teamcard {
+    background-color: rgba(0, 0, 0, 0.089);
+    border-radius: 20px;
+    color: white;
+    text-align: center;
+    padding: 10px 20px;
+  }
+  
+  .secondone {
+    /* margin-top: 36px;
+    margin-left: 190px; */
+   
+  }
+  
+  .ten {
+     border-radius: 50px;
+    padding: 15px;
+    background-color: rgba(0, 0, 0, 0.096);
+    width: 100%;
+    border: none;
+    /* width: 198px;
+    height: 30px;
+    margin-top: 25px;
+    margin-left: 33px;
+    background-color: transparent;
+    border: none;
+     */
+  }
+  
+  .btnn {
+    width: 196px;
+    height: 60px;
+    margin-top: 8px;
+    margin-left: 44px;
+    border-radius:70px;
+    display: none;
+   }
+  
+   .like, a:link{
+    text-decoration: none;
+    color: white;
+   }
+  
+   .like, a:hover{
+    color: white;
+    
+   }
+  
+   .linkChanged{
+    color: white;
+   }
+  
+   .our{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+   }
+  
+   .we{
+    width: 55%;
+    text-align: center;
+   }
