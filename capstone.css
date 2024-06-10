@@ -678,6 +678,7 @@ footer{
         margin-bottom:200px;
     }
     .nothing{
+        width: 100%;
         /* left: 27px;
         position: relative; */
        
@@ -858,10 +859,8 @@ footer{
         margin-bottom: 200px;
         left: 1rem;
     }
-    .nothing{
-        font-size: x-small;
-        /* width: 300px; */
-    }
+    
+    
     .working{
         height: 450px;
     }
@@ -1030,8 +1029,8 @@ footer{
     .nothing{
         font-size: 10px;
         text-align: center;
-        left: 20px;
-        position: relative;
+        width:100%;
+        
     }
     .nothing h1{
         font-size: 30px;
