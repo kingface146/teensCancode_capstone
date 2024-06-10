@@ -81,10 +81,13 @@ span{
 }
 .Services{
     /* text-align:  center; */
-  width: 587px ;
+  /* width: 587px ; */
   text-align: center;
-  margin-left: 427px;
+  /* margin-left: 427px; */
   color: white;
+  margin: auto;
+  margin-bottom: 40px;
+  
 }
 .checklist{
     height: 270px;
@@ -206,7 +209,7 @@ span{
     justify-content: space-evenly;
 }
 .nothing{
-    width: 100%;
+    width: 45%;
     /* position: relative; */
     /* top: 6rem; */
     margin-top: 110px;
@@ -752,9 +755,7 @@ footer{
     left: 19rem;
     position: relative;
 } */
-.checklist{
-    width: 90%;
-}
+
 
     
 }
